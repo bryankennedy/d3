@@ -19,6 +19,10 @@ div.bar {
   margin-right: 1px;
 }
 
+.valen {
+  font-size: 50px;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
