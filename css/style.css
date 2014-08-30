@@ -1,3 +1,11 @@
+div.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px; /* Gets overriden by D3-assigned height below */
+  background-color: teal;
+}
+
+
 /*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 html,
