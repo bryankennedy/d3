@@ -1,13 +1,3 @@
-div.bar {
-  display: inline-block;
-  width: 20px;
-  height: 75px; /* Gets overriden by D3-assigned height below */
-  background-color: teal;
-}
-
-
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
 html,
 button,
 input,
@@ -19,6 +9,14 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+}
+
+div.bar {
+  display: inline-block;
+  width: 20px;
+  height: 75px; /* Gets overriden by D3-assigned height */
+  background-color: teal;
+  margin-right: 1px;
 }
 
 ::-moz-selection {
@@ -39,6 +37,8 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
 
 audio,
 canvas,
